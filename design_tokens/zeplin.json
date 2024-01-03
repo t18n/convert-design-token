@@ -1,0 +1,187 @@
+{
+  "colors": {
+    "white": {
+      "value": "rgb(255, 255, 255)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6593c96ec4165528ed2a9575",
+            "name": "Core",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6593e53320c750a08510cf28",
+          "type": "Color"
+        }
+      }
+    },
+    "greyDark": {
+      "value": "rgb(110, 110, 110)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6593c96ec4165528ed2a9575",
+            "name": "Core",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6593e5365d72b0034cf470d5",
+          "type": "Color"
+        }
+      }
+    },
+    "purple": {
+      "value": "rgb(57, 54, 117)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6593c96ec4165528ed2a9575",
+            "name": "Core",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6593e533261417303c12415e",
+          "type": "Color"
+        }
+      }
+    },
+    "red": {
+      "value": "rgb(181, 69, 69)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6593c96ec4165528ed2a9575",
+            "name": "Core",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6593e534cf09fb912ef8ec11",
+          "type": "Color"
+        }
+      }
+    },
+    "yellow": {
+      "value": "rgb(226, 158, 48)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6593c96ec4165528ed2a9575",
+            "name": "Core",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6593e534d578f42e327a7711",
+          "type": "Color"
+        }
+      }
+    },
+    "blue": {
+      "value": "rgb(40, 151, 189)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6593c96ec4165528ed2a9575",
+            "name": "Core",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6593e535e95324860d9c265a",
+          "type": "Color"
+        }
+      }
+    },
+    "blueLink": {
+      "value": "rgb(15, 76, 168)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6593c96ec4165528ed2a9575",
+            "name": "Core",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6593e5368bb13bbcabd6c7a9",
+          "type": "Color"
+        }
+      }
+    },
+    "green": {
+      "value": "rgb(0, 173, 147)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6593c96ec4165528ed2a9575",
+            "name": "Core",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6593e535261417303c124250",
+          "type": "Color"
+        }
+      }
+    },
+    "grey": {
+      "value": "rgb(230, 230, 230)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6593c96ec4165528ed2a9575",
+            "name": "Core",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6593e5353ae10af9c77de983",
+          "type": "Color"
+        }
+      }
+    },
+    "charcoal": {
+      "value": "rgb(31, 38, 46)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6593c96ec4165528ed2a9575",
+            "name": "Core",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6593e53641ce8c41bf6b08d8",
+          "type": "Color"
+        }
+      }
+    }
+  },
+  "textStyles": {
+    "heading1": {
+      "fontSize": "2rem",
+      "fontWeight": "bold",
+      "lineHeight": "2.5rem",
+      "color": "@blue"
+    },
+    "paragraph": {
+      "fontSize": "1rem",
+      "lineHeight": "1.5rem",
+      "color": "@charcoal"
+    },
+    "link": {
+      "fontSize": "1rem",
+      "lineHeight": "1.5rem",
+      "color": "@blueLink"
+    }
+  },
+  "spacing": {
+    "small": "0.5rem",
+    "medium": "1rem",
+    "large": "2rem"
+  }
+}

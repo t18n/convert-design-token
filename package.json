@@ -1,0 +1,16 @@
+{
+  "name": "convert-design-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "style-dictionary build --config ./style_dictionary/index.js -- --output-dir ./__GENERATED__"
+  },
+  "keywords": [],
+  "author": "t18n",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^3.9.1"
+  }
+}

@@ -1,0 +1,122 @@
+
+/**
+ * Do not edit directly
+ * Generated on Wed, 03 Jan 2024 17:08:05 GMT
+ */
+
+$font-size-10: 10 !default;
+$font-size-12: 12 !default;
+$font-size-14: 14 !default;
+$font-size-16: 16 !default;
+$font-size-18: 18 !default;
+$font-weight-regular: 400 !default;
+$font-weight-semi-bold: 600 !default;
+$font-weight-bold: 800 !default;
+$font-family: Roboto !default;
+$letter-spacing-default: 2% !default;
+$letter-spacing-increased: 15% !default;
+$letter-spacing-decreased: -3% !default;
+$border-radius-1: 1 !default;
+$border-radius-2: 2 !default;
+$border-radius-4: 4 !default;
+$border-radius-8: 8 !default;
+$border-width-1: 1 !default;
+$border-width-2: 2 !default;
+$box-shadow-v1: 0px 3px 5px 0px rgba(0, 0, 0, 0.2) !default;
+$box-shadow-v2: 0px 4px 16px 0px rgba(0, 0, 0, 0.1) !default;
+$box-shadow-v3: 0px 7px 50px 0px rgba(0, 0, 0, 0.2), 0px 3px 5px 0px rgba(0, 0, 0, 0.2) !default;
+$z-index-background: -1 !default;
+$z-index-content: 0 !default; // Default z-index for all elements
+$z-index-content-highlighted: 10 !default;
+$z-index-header: 20 !default;
+$z-index-drawer: 30 !default;
+$z-index-overlay: 40 !default;
+$colors-white: rgb(255, 255, 255) !default;
+$colors-grey-dark: rgb(110, 110, 110) !default;
+$colors-purple: rgb(57, 54, 117) !default;
+$colors-red: rgb(181, 69, 69) !default;
+$colors-yellow: rgb(226, 158, 48) !default;
+$colors-blue: rgb(40, 151, 189) !default;
+$colors-blue-link: rgb(15, 76, 168) !default;
+$colors-green: rgb(0, 173, 147) !default;
+$colors-grey: rgb(230, 230, 230) !default;
+$colors-charcoal: rgb(31, 38, 46) !default;
+
+$designTokens: (
+  'font-size': (
+    '10': $font-size-10,
+    '12': $font-size-12,
+    '14': $font-size-14,
+    '16': $font-size-16,
+    '18': $font-size-18
+  ),
+  'font-weight': (
+    'regular': $font-weight-regular,
+    'semi-bold': $font-weight-semi-bold,
+    'bold': $font-weight-bold
+  ),
+  'font-family': $font-family,
+  'letter-spacing': (
+    'default': $letter-spacing-default,
+    'increased': $letter-spacing-increased,
+    'decreased': $letter-spacing-decreased
+  ),
+  'border-radius': (
+    '1': $border-radius-1,
+    '2': $border-radius-2,
+    '4': $border-radius-4,
+    '8': $border-radius-8
+  ),
+  'border-width': (
+    '1': $border-width-1,
+    '2': $border-width-2
+  ),
+  'box-shadow': (
+    'v1': $box-shadow-v1,
+    'v2': $box-shadow-v2,
+    'v3': $box-shadow-v3
+  ),
+  'zIndex': (
+    'background': $z-index-background,
+    'content': $z-index-content,
+    'contentHighlighted': $z-index-content-highlighted,
+    'header': $z-index-header,
+    'drawer': $z-index-drawer,
+    'overlay': $z-index-overlay
+  ),
+  'colors': (
+    'white': $colors-white,
+    'greyDark': $colors-grey-dark,
+    'purple': $colors-purple,
+    'red': $colors-red,
+    'yellow': $colors-yellow,
+    'blue': $colors-blue,
+    'blueLink': $colors-blue-link,
+    'green': $colors-green,
+    'grey': $colors-grey,
+    'charcoal': $colors-charcoal
+  ),
+  'textStyles': (
+    'heading1': (
+      'fontSize': '2rem',
+      'fontWeight': 'bold',
+      'lineHeight': '2.5rem',
+      'color': '@blue'
+    ),
+    'paragraph': (
+      'fontSize': '1rem',
+      'lineHeight': '1.5rem',
+      'color': '@charcoal'
+    ),
+    'link': (
+      'fontSize': '1rem',
+      'lineHeight': '1.5rem',
+      'color': '@blueLink'
+    )
+  ),
+  'spacing': (
+    'small': '0.5rem',
+    'medium': '1rem',
+    'large': '2rem'
+  )
+);
